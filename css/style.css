@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+:root
+--header: #40617f;
+--main: #FFFFFF;
+--primary-font : "Montserrat", sans-serif;
+--secondary-font: "Alea", sans-serif;
+--font-color: #000000;

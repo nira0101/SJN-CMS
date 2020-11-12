@@ -1,48 +1,174 @@
 * {
-  box-sizing: border-box;
-}
-:root{
---header: #40617f;
---main: #FFFFFF;
---primary-font : "Montserrat", sans-serif;
---secondary-font: "Alea", sans-serif;
---font-color: #FFFFFF;
+    box-sizing: border-box;
 }
 
-header{
+:root {
+    --header: #40617f;
+    --orange: #ff9632;
+    --main: #FFFFFF;
+    --button:#bebcb6;
+    --primary-font: "Montserrat", sans-serif;
+    --secondary-font: "Alea", sans-serif;
+    --font-color: #FFFFFF;
+}
+
+main {
+    margin: 3vw;
+}
+
+header {
     background: var(--header);
-    height: 8vw;
+    height: 6vw;
     display: flex;
     flex-direction: row;
-  justify-content: space-around;
+    justify-content: space-around;
 
 }
-.logo{
-    width: 8vw;
+
+.logo {
+    width: 6vw;
     background-image: url(../image/AKAP_Logo_Vertical_OrangeWhite_RGB.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    margin: 0.7vw;
+    margin: 0.5vw;
 
 }
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+
+form {
+    margin-top: 2.2vw;
 }
-form{
-    margin-top: 3vw;
-}
-nav ul{
-   list-style-type: none;
+
+nav {
+    margin-top: 1vw;
 
 }
-nav a{
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+li {
+    float: left;
+
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-     color: var(--font-color);
     font-family: var(--primary-font);
     font-size: 1.4vw;
-    font-weight: 600;
 
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.language {
+    height: 3vw;
+}
+
+.hld {
+    height: 20vw;
+    margin-top: 2vw;
+    background-image: url(../image/hh.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container1 {
+    background: var(--main);
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 2fr));
+
+    margin: 20px 0;
+    grid-gap: 20px;
+}
+
+h2.title {
+    font-family: var(--secondary-font);
+    margin: 1vw;
+    font-size: 2.5vw;
+    margin-top: 2vw;
+    position: absolute;
+}
+
+p.desc {
+    position: absolute;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-stretch: expanded;
+    font-size: 1.3vw;
+    margin-left: 1vw;
+    margin-top: 5.5vw;
+    width: 40vw;
+    word-spacing: 3px;
+
+}
+.box1 {
+    background: var(--orange);
+}
+.tex{
+    margin: 3vw;
+
+}
+.b1{
+    margin: 0;
+    font-family: var(--secondary-font);
+    font-size: 2.3vw;
+}
+.p1{
+    margin: 0;
+    font-family: var(--primary-font);
+    font-size: 1.3vw;
+    font-weight: 700;
+
+}
+.box2 {
+   background: var(--header);
+}
+.b2{
+    margin: 0;
+    font-family: var(--secondary-font);
+    font-size: 2.3vw;
+    color: var(--main);
+}
+.p2{
+    margin: 0;
+    font-family: var(--primary-font);
+    font-size: 1.3vw;
+     color: var(--main);
+    font-weight: 700;
+}
+.button1{
+    margin-left: 37vw;
+    height: 5vw;
+    background: var(--orange);
+    border-color: var(--orange);
+
+}
+.butt1{
+    width: 4vw;
+}
+
+.button2{
+    margin-left: 37vw;
+    height: 5vw;
+    background: var(--header);
+    border-color: var(--header);
+
+}
+.button1:hover{
+    transform: scale(1.2,1.3);
+}
+.button2:hover{
+    transform: scale(1.2,1.3);
 }

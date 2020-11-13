@@ -18,7 +18,7 @@ main {
 
 header {
     background: var(--header);
-    height: 6vw;
+    height: 7vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -26,7 +26,7 @@ header {
 }
 
 .logo {
-    width: 6vw;
+    width: 7vw;
     background-image: url(../image/AKAP_Logo_Vertical_OrangeWhite_RGB.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -96,7 +96,7 @@ li a:hover {
 h2.title {
     font-family: var(--secondary-font);
     margin: 1vw;
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     margin-top: 2vw;
     position: absolute;
 }
@@ -106,7 +106,7 @@ p.desc {
     font-family: var(--primary-font);
     font-weight: 700;
     font-stretch: expanded;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     margin-left: 1vw;
     margin-top: 5.5vw;
     width: 40vw;
@@ -114,37 +114,42 @@ p.desc {
 
 }
 .box1 {
-    background: var(--orange);
+    background-image:url(../image/template1.png);
+     background-size: cover;
+    background-position: center;
+
 }
 .tex{
     margin: 3vw;
 
 }
 .b1{
-    margin: 0;
+    margin: 0.5vw;;
     font-family: var(--secondary-font);
-    font-size: 2.3vw;
+    font-size: 2.1vw;
 }
 .p1{
     margin: 0;
     font-family: var(--primary-font);
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     font-weight: 700;
 
 }
 .box2 {
-   background: var(--header);
+  background-image:url(../image/template2.png);
+     background-size: cover;
+    background-position: center;
 }
 .b2{
-    margin: 0;
+    margin: 0.5vw;
     font-family: var(--secondary-font);
-    font-size: 2.3vw;
+    font-size: 2.1vw;
     color: var(--main);
 }
 .p2{
     margin: 0;
     font-family: var(--primary-font);
-    font-size: 1.3vw;
+    font-size: 1.2vw;
      color: var(--main);
     font-weight: 700;
 }
@@ -156,11 +161,12 @@ p.desc {
 
 }
 .butt1{
-    width: 4vw;
+    width: 3vw;
 }
 
 .button2{
-    margin-left: 37vw;
+    margin-top: 2vw;
+    margin-left: 35vw;
     height: 5vw;
     background: var(--header);
     border-color: var(--header);

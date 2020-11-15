@@ -16,7 +16,7 @@ body{
 }
 
 main {
-    margin: 0 3vw;
+    margin: 0 5vw;
 
 }
 
@@ -26,6 +26,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+     box-shadow: 3px 3px 5px #000000ab;
 
 }
 .language{
@@ -110,6 +111,7 @@ li a:hover {
     background-image: url(../image/hh.jpg);
     background-size: cover;
     background-position: center;
+     box-shadow: 3px 3px 5px #000000ab;
 }
 .container1 {
     background: var(--main);
@@ -145,6 +147,7 @@ p.desc {
     background-image:url(../image/template1.png);
      background-size: cover;
     background-position: center;
+     box-shadow: 3px 3px 5px #000000ab;
 
 }
 .tex{
@@ -167,6 +170,7 @@ p.desc {
   background-image:url(../image/template2.png);
      background-size: cover;
     background-position: center;
+     box-shadow: 3px 3px 5px #000000ab;
 }
 .b2{
     margin: 0.5vw;
@@ -211,6 +215,9 @@ p.desc {
     margin: 1vw;
     font-family: var(--primary-font);
     color: var(--header);
+}
+.temp{
+    height: 10vw;
 }
 footer{
     height: 55vw;
@@ -282,25 +289,36 @@ footer{
     color: white;
 }
 
-.pension{
-     display: grid;
+.m2{
+    display: grid;
   max-width: 1200px;
   margin: auto;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 60px;
+  grid-gap: 30px;
     margin-bottom: 2vw;
+
+
 }
-.cont2{
+.pension{
     display: flex;
     flex-direction: column;
     box-shadow: 3px 3px 5px #000000ab;
     transition: 0.2s;
+    border-radius: 20px;
 }
+.in{
+   font-family: var(--primary font);
+    color: black;
+    font font-size: 1.2vw;
+}
+
 .pimage{
-    max-height: 28vw;
+
 }
-.cont2 h3{
+.pension h3{
     font-family: var(--primary-font);
+    font-weight: bold;
+    text-transform: capitalize;
 }
 #pbut{
       width: 8vw;
@@ -319,4 +337,5 @@ footer{
 }
 .desc{
     margin-left: 1vw;
+    height: 7vw;
 }

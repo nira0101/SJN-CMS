@@ -11,12 +11,17 @@ function showPension(singlePension){
 
     const img_url = singlePension._embedded["wp:featuredmedia"][0].source_url;
 
-    const template = document.querySelector("template").content;
-    const clone = template.cloneNode(true);
-    const mainEl = document.querySelector(".m2");
-    clone.querySelector(".pension h3").textContent = singlePension.title.rendered;
 
-    clone.querySelector(".pimage").src = img_url;
-    mainEl.appendChild(clone);
+    const template = document.querySelector("template").content;
+    const copy = template.cloneNode(true);
+
+    const mainEl = document.querySelector(".m2");
+    copy.querySelector(".pension h3").textContent = singlePension.title.rendered;
+
+    const a = copy.querySelector(".pbut");
+    a.href += description.id;
+
+    copy.querySelector(".pimage").src = img_url;
+    mainEl.appendChild(copy);
 }
 
